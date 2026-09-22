@@ -1,31 +1,25 @@
 let nomeDoHeroi = "Felipe";
-let xp = 6001;
-let nivel = "";
+let xpHeroi = 100000;
+let nivelHeroi = "";
 
-function calcularNivel(xp) {
-if (xp <= 1000) {
-  nivel = "Ferro";
-} else if (xp >= 1001 && xp < 2000) {
-  nivel = "Bronze";
-} else if (xp >= 2001 && xp < 5000) {
-  nivel = "Prata";
-} else if (xp >= 5001 && xp < 6000) {
-  nivel = "Ouro";
-} else if (xp >= 6001 && xp < 7000) {
-  nivel = "Diamante";
-} else if (xp >= 7001 && xp < 8000) {
-  nivel = "Platina";
-} else if (xp >= 8001 && xp < 9000) {
-  nivel = "Ascendente";
-} else if (xp >= 9001 && xp < 10000) {
-  nivel = "Imortal";
+if (xpHeroi <= 1000) {
+    nivelHeroi = "Ferro";
+} else if (xpHeroi <= 2000) {
+    nivelHeroi = "Bronze";
+} else if (xpHeroi <= 5000) {
+    nivelHeroi = "Prata";
+} else if (xpHeroi <= 7000) {
+    nivelHeroi = "Ouro";
+} else if (xpHeroi <= 8000) {
+    nivelHeroi = "Platina";
+} else if (xpHeroi <= 9000) {
+    nivelHeroi = "Ascendente";
+} else if (xpHeroi <= 10000) {
+    nivelHeroi = "Imortal";
 } else {
-  nivel = "Radiante";
+    nivelHeroi = "Radiante";
 }
-}
 
 
-
-calcularNivel(xp);
-console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivel);
+console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelHeroi);
 
