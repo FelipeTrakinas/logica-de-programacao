@@ -20,7 +20,6 @@ Foram utilizados conceitos como:
 - Variáveis
 - Operadores
 - Estruturas condicionais
-- Funções
 
 Para executar:
 
